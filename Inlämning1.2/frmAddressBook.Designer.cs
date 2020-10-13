@@ -71,8 +71,9 @@
             this.listViewList.GridLines = true;
             this.listViewList.HideSelection = false;
             this.listViewList.Location = new System.Drawing.Point(12, 284);
+            this.listViewList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listViewList.Name = "listViewList";
-            this.listViewList.Size = new System.Drawing.Size(1049, 224);
+            this.listViewList.Size = new System.Drawing.Size(1033, 224);
             this.listViewList.TabIndex = 0;
             this.listViewList.UseCompatibleStateImageBehavior = false;
             this.listViewList.View = System.Windows.Forms.View.Details;
@@ -100,25 +101,27 @@
             // 
             // Telefonnummer
             // 
-            this.Telefonnummer.Text = "telefonnummer";
+            this.Telefonnummer.Text = "Telefonnummer";
             this.Telefonnummer.Width = 125;
             // 
             // Mail
             // 
-            this.Mail.Text = "mail";
+            this.Mail.Text = "Mail";
             this.Mail.Width = 138;
             // 
             // cboxTypeSearch
             // 
             this.cboxTypeSearch.FormattingEnabled = true;
-            this.cboxTypeSearch.Location = new System.Drawing.Point(13, 253);
+            this.cboxTypeSearch.Location = new System.Drawing.Point(13, 254);
+            this.cboxTypeSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboxTypeSearch.Name = "cboxTypeSearch";
             this.cboxTypeSearch.Size = new System.Drawing.Size(183, 24);
             this.cboxTypeSearch.TabIndex = 1;
             // 
             // txtSearchBox
             // 
-            this.txtSearchBox.Location = new System.Drawing.Point(218, 253);
+            this.txtSearchBox.Location = new System.Drawing.Point(219, 254);
+            this.txtSearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearchBox.Multiline = true;
             this.txtSearchBox.Name = "txtSearchBox";
             this.txtSearchBox.Size = new System.Drawing.Size(316, 25);
@@ -126,7 +129,8 @@
             // 
             // BtSearch
             // 
-            this.BtSearch.Location = new System.Drawing.Point(549, 253);
+            this.BtSearch.Location = new System.Drawing.Point(549, 254);
+            this.BtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtSearch.Name = "BtSearch";
             this.BtSearch.Size = new System.Drawing.Size(75, 25);
             this.BtSearch.TabIndex = 3;
@@ -136,7 +140,8 @@
             // 
             // txtBoxFullName
             // 
-            this.txtBoxFullName.Location = new System.Drawing.Point(13, 35);
+            this.txtBoxFullName.Location = new System.Drawing.Point(13, 34);
+            this.txtBoxFullName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxFullName.Name = "txtBoxFullName";
             this.txtBoxFullName.Size = new System.Drawing.Size(251, 22);
             this.txtBoxFullName.TabIndex = 4;
@@ -144,6 +149,7 @@
             // txtBoxAddress
             // 
             this.txtBoxAddress.Location = new System.Drawing.Point(13, 63);
+            this.txtBoxAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxAddress.Name = "txtBoxAddress";
             this.txtBoxAddress.Size = new System.Drawing.Size(251, 22);
             this.txtBoxAddress.TabIndex = 6;
@@ -151,6 +157,7 @@
             // txtBoxPostalNumber
             // 
             this.txtBoxPostalNumber.Location = new System.Drawing.Point(13, 91);
+            this.txtBoxPostalNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxPostalNumber.Name = "txtBoxPostalNumber";
             this.txtBoxPostalNumber.Size = new System.Drawing.Size(251, 22);
             this.txtBoxPostalNumber.TabIndex = 7;
@@ -158,13 +165,15 @@
             // txtBoxCity
             // 
             this.txtBoxCity.Location = new System.Drawing.Point(13, 119);
+            this.txtBoxCity.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxCity.Name = "txtBoxCity";
             this.txtBoxCity.Size = new System.Drawing.Size(251, 22);
             this.txtBoxCity.TabIndex = 8;
             // 
             // txtBoxPhoneNumber
             // 
-            this.txtBoxPhoneNumber.Location = new System.Drawing.Point(13, 147);
+            this.txtBoxPhoneNumber.Location = new System.Drawing.Point(13, 146);
+            this.txtBoxPhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxPhoneNumber.Name = "txtBoxPhoneNumber";
             this.txtBoxPhoneNumber.Size = new System.Drawing.Size(251, 22);
             this.txtBoxPhoneNumber.TabIndex = 9;
@@ -172,6 +181,7 @@
             // txtBoxMail
             // 
             this.txtBoxMail.Location = new System.Drawing.Point(13, 175);
+            this.txtBoxMail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBoxMail.Name = "txtBoxMail";
             this.txtBoxMail.Size = new System.Drawing.Size(251, 22);
             this.txtBoxMail.TabIndex = 10;
@@ -179,7 +189,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(290, 40);
+            this.lblName.Location = new System.Drawing.Point(291, 39);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(45, 17);
             this.lblName.TabIndex = 12;
@@ -188,7 +198,7 @@
             // lblAdress
             // 
             this.lblAdress.AutoSize = true;
-            this.lblAdress.Location = new System.Drawing.Point(290, 68);
+            this.lblAdress.Location = new System.Drawing.Point(291, 68);
             this.lblAdress.Name = "lblAdress";
             this.lblAdress.Size = new System.Drawing.Size(52, 17);
             this.lblAdress.TabIndex = 13;
@@ -197,7 +207,7 @@
             // lblPostalNumber
             // 
             this.lblPostalNumber.AutoSize = true;
-            this.lblPostalNumber.Location = new System.Drawing.Point(290, 96);
+            this.lblPostalNumber.Location = new System.Drawing.Point(291, 96);
             this.lblPostalNumber.Name = "lblPostalNumber";
             this.lblPostalNumber.Size = new System.Drawing.Size(87, 17);
             this.lblPostalNumber.TabIndex = 14;
@@ -206,7 +216,7 @@
             // lblCity
             // 
             this.lblCity.AutoSize = true;
-            this.lblCity.Location = new System.Drawing.Point(290, 124);
+            this.lblCity.Location = new System.Drawing.Point(291, 124);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(28, 17);
             this.lblCity.TabIndex = 15;
@@ -215,7 +225,7 @@
             // lblPhoneNumber
             // 
             this.lblPhoneNumber.AutoSize = true;
-            this.lblPhoneNumber.Location = new System.Drawing.Point(290, 152);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(291, 153);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
             this.lblPhoneNumber.Size = new System.Drawing.Size(107, 17);
             this.lblPhoneNumber.TabIndex = 16;
@@ -224,7 +234,7 @@
             // lblMail
             // 
             this.lblMail.AutoSize = true;
-            this.lblMail.Location = new System.Drawing.Point(290, 180);
+            this.lblMail.Location = new System.Drawing.Point(291, 180);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(33, 17);
             this.lblMail.TabIndex = 17;
@@ -232,7 +242,8 @@
             // 
             // BtSave
             // 
-            this.BtSave.Location = new System.Drawing.Point(459, 35);
+            this.BtSave.Location = new System.Drawing.Point(459, 34);
+            this.BtSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtSave.Name = "BtSave";
             this.BtSave.Size = new System.Drawing.Size(135, 28);
             this.BtSave.TabIndex = 18;
@@ -243,6 +254,7 @@
             // btUpdate
             // 
             this.btUpdate.Location = new System.Drawing.Point(459, 69);
+            this.btUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btUpdate.Name = "btUpdate";
             this.btUpdate.Size = new System.Drawing.Size(135, 31);
             this.btUpdate.TabIndex = 19;
@@ -253,8 +265,9 @@
             // BtRemove
             // 
             this.BtRemove.Location = new System.Drawing.Point(459, 106);
+            this.BtRemove.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtRemove.Name = "BtRemove";
-            this.BtRemove.Size = new System.Drawing.Size(135, 35);
+            this.BtRemove.Size = new System.Drawing.Size(135, 34);
             this.BtRemove.TabIndex = 20;
             this.BtRemove.Text = "Remove Selected";
             this.BtRemove.UseVisualStyleBackColor = true;
@@ -262,7 +275,8 @@
             // 
             // BtClearFields
             // 
-            this.BtClearFields.Location = new System.Drawing.Point(459, 147);
+            this.BtClearFields.Location = new System.Drawing.Point(459, 146);
+            this.BtClearFields.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtClearFields.Name = "BtClearFields";
             this.BtClearFields.Size = new System.Drawing.Size(135, 32);
             this.BtClearFields.TabIndex = 21;
@@ -273,6 +287,7 @@
             // BtShowAll
             // 
             this.BtShowAll.Location = new System.Drawing.Point(459, 185);
+            this.BtShowAll.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtShowAll.Name = "BtShowAll";
             this.BtShowAll.Size = new System.Drawing.Size(135, 31);
             this.BtShowAll.TabIndex = 22;
@@ -293,7 +308,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 520);
+            this.ClientSize = new System.Drawing.Size(1095, 519);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtShowAll);
             this.Controls.Add(this.BtClearFields);
@@ -316,6 +331,7 @@
             this.Controls.Add(this.txtSearchBox);
             this.Controls.Add(this.cboxTypeSearch);
             this.Controls.Add(this.listViewList);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmAddressBook";
             this.Text = "Adressbok";
             this.Load += new System.EventHandler(this.frmAddressBook_Load_1);

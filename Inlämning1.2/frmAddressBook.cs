@@ -18,6 +18,8 @@ namespace Inlämning1._2
             cboxTypeSearch.Items.Add("PhoneNumber");
             cboxTypeSearch.Text = "Name";
         }
+
+
         List<Person> people = new List<Person>();
         List<Person> searchResult = new List<Person>();
         string selectedItem = "";
@@ -106,7 +108,7 @@ namespace Inlämning1._2
         private void BtRemove_Click(object sender, EventArgs e)
         {
             string path = "SaveFile.txt";
-            string word = Convert.ToString(selectedItem);  
+            string word = Convert.ToString(selectedItem);
             var oldLines = System.IO.File.ReadAllLines(path);
             var newLines = oldLines.Where(line => !line.Contains(word));
             System.IO.File.WriteAllLines(path, newLines);
@@ -116,7 +118,6 @@ namespace Inlämning1._2
             people.RemoveAt(listViewList.FocusedItem.Index);
             listViewList.Items.RemoveAt(listViewList.FocusedItem.Index);
             ClearFields();
-
         }
         public void SyncDataFromFile()
         {
@@ -125,7 +126,6 @@ namespace Inlämning1._2
             GetDataFromTxtFile();
             ClearFields();
         }
-
         //Tömmer alla textboxfälten i telefonboken
         private void BtClearFields_Click(object sender, EventArgs e)
         {
@@ -133,7 +133,6 @@ namespace Inlämning1._2
         }
         //Väljer först vilken typ vi ska söka efter och matchar sökordet 
         //det vi söker så printas resultatet ut i listan
-
         public void ClearListView()
         {
             listViewList.Items.Clear();
@@ -202,7 +201,6 @@ namespace Inlämning1._2
         private void frmAddressBook_Load_1(object sender, EventArgs e)
         {
             GetDataFromTxtFile();
-
         }
     }
 }
